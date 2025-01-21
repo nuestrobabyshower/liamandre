@@ -2,101 +2,46 @@ window.sr = ScrollReveal();
 
 	
 	sr.reveal('.nombres1', {
-		duration: 2500, //tiempo
-		delay:1000,
-		origin: 'left', //origen
-		distance: '200px' //distancia
-
-	}); 
-	sr.reveal('.diaP', {
-	rotate: {
-        x: 100,
-        z: 100
-    },
-		duration: 3000, //tiempo
-		delay:2500,
+		duration: 2000, //tiempo
+		//delay:1500,
 		origin: 'bottom', //origen
-		distance: '0px' //distancia
-
-
-	}); 
-sr.reveal('.nombre', {
-	rotate: {
-        x: 100,
-        z: 100
-    },
-		duration: 4000, //tiempo
-		delay:1000,
-		origin: 'bottom', //origen
-		
 		distance: '100px' //distancia
 
 
 	}); 
-sr.reveal('.music', {
-		duration: 2000, //tiempo
-		delay:100,
-		origin: 'bottom', //origen
-		
-		distance: '100px' //distancia
-
-
-	}); 
-sr.reveal('.añoP', {
-		duration: 2000, //tiempo
-		delay:2000,
-		origin: 'bottom', //origen
-		
-		distance: '50px' //distancia
-
-
-	}); 
-sr.reveal('.mesP', {
-		duration: 2000, //tiempo
-		delay:1300,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-sr.reveal('.mibautizo', {
+sr.reveal('.cliente', {
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
 		
-		distance: '50px' //distancia
+		distance: '100px' //distancia
 
 
 	}); 
-sr.reveal('.music', {
+sr.reveal('#boton2', {
 		duration: 2000, //tiempo
-		//delay:1000,
-		origin: 'top', //origen
-		
-		distance: '50px' //distancia
-
-
-	}); 
-sr.reveal('.respetuosamente', {
-		duration: 2000, //tiempo
-		delay:1500,
+		//delay:1500,
 		origin: 'left', //origen
 		
-		distance: '150px' //distancia
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.social-container', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
 
 
 	}); 
 sr.reveal('.diaBautizo', {
-	
-	rotate: {
-        x: 50,
-        z: 100
-    },
 		duration: 2000, //tiempo
 		//delay:1500,
-		origin: 'left', //origen
-		distance: '100px' //distancia
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 
 
 	}); 
@@ -224,11 +169,11 @@ sr.reveal('.diaBautizo', {
 
 	});
 	sr.reveal('.vestimenta', {
-		duration: 2000, //tiempo
-		//delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		duration: 1500, //tiempo
+		///delay:1000,
+		origin: 'left', //origen
+		
+		distance: '150px' //distancia
 		
 
 	});
@@ -268,51 +213,6 @@ sr.reveal('.diaBautizo', {
 
 
 	}); 
-			sr.reveal('.f1', {
-		duration: 1500, //tiempo
-		delay:1100,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-		sr.reveal('.f2', {
-		duration: 1500, //tiempo
-		delay:1300,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-		sr.reveal('.f3', {
-		duration: 1500, //tiempo
-		delay:1500,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-		sr.reveal('.f4', {
-		duration: 1500, //tiempo
-		delay:1700,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
-		sr.reveal('.f5', {
-		duration: 1500, //tiempo
-		delay:100,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
-
-
-	}); 
 
 			sr.reveal('.form-register', {
 		duration: 1000, //tiempo
@@ -322,19 +222,12 @@ sr.reveal('.diaBautizo', {
 		
 
 	});
-			sr.reveal('.', {
-		duration: 2500, //tiempo
-		delay:1700,
-		origin: 'left', //origen
-		distance: '100px' //distancia
-
-
-	}); 
-					sr.reveal('.', {
-		duration: 2500, //tiempo
-		delay:1700,
+			sr.reveal('.btnWhats', {
+		duration: 1500, //tiempo
+		//delay:700,
 		origin: 'top', //origen
-		distance: '100px' //distancia
+		scale: 0.10,
+		distance: '-0' //distancia
 
 
 	}); 
@@ -348,118 +241,17 @@ sr.reveal('.nosCasamos', {
 	});
 
 sr.reveal('.dondeyCuando', {
-		duration: 2000, //tiempo
-		delay: 1000,
+	rotate: {
+        x: 50,
+        z: 100
+    },
+		duration: 1500, //tiempo
 		origin: 'left', //origen
-		distance: '150px', //distancia
-		
-
-	});
-
-sr.reveal('.porqueformas', {
-		duration: 2000, //tiempo
-		delay: 1000,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.pies', {
-		duration: 2000, //tiempo
-		delay: 1000,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.flores', {
-		duration: 3000, //tiempo
-		delay: 1000,
-		origin: 'top', //origen
 		distance: '100px', //distancia
 		
 
 	});
-sr.reveal('.ceremoniaReligiosa2', {
-		duration: 3000, //tiempo
-		delay: 1000,
-		origin: 'bottom', //origen
-		distance: '400px', //distancia
-		
 
-	});
-sr.reveal('.horas', {
-		duration: 2000, //tiempo
-		delay: 1500,
-		origin: 'top', //origen
-		distance: '100px', //distancia
-		
-
-	});
-sr.reveal('.lugar', {
-		duration: 2000, //tiempo
-		delay: 1000,
-		origin: 'left', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.textodondeycuando', {
-		duration: 2000, //tiempo
-		delay: 1000,
-		origin: 'left', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.btnComoLlegar', {
-		duration: 2000, //tiempo
-		delay: 1500,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.btnComoLlegar2', {
-		duration: 2000, //tiempo
-		delay: 1700,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.dondeyCuando2', {
-		duration: 2000, //tiempo
-		delay: 1500,
-		origin: 'top', //origen
-		distance: '100px', //distancia
-		
-
-	});
-sr.reveal('#amazonliverpool', {
-		duration: 2000, //tiempo
-		delay: 1500,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.foto', {
-		duration: 2000, //tiempo
-		delay: 1200,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
-sr.reveal('.tespero', {
-		duration: 2000, //tiempo
-		delay: 1000,
-		origin: 'bottom', //origen
-		distance: '150px', //distancia
-		
-
-	});
 sr.reveal('.carousel', {
 		duration: 2000, //tiempo
 		//delay:1500,
@@ -486,7 +278,7 @@ sr.reveal('.Tituloasistenciaespero', {
 
 sr.reveal('.nompadres', {
 		duration: 1500, //tiempo
-		delay:1500,
+		//delay:700,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -649,47 +441,25 @@ $(document).ready(function(){
 });
 
 
-// Open the Modal
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
+$(document).ready(function(){
+	$('.menu li:has(ul)').click(function(e){
+		e.preventDefault();
 
-// Close the Modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
+		if ($(this).hasClass('activado')){
+			$(this).removeClass('activado');
+			$(this).children('ul').slideUp();
+		} else {
+			$('.menu li ul').slideUp();
+			$('.menu li').removeClass('activado');
+			$(this).addClass('activado');
+			$(this).children('ul').slideDown();
+		}
+	});
 
-var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-
+	
+});
  function copiar(){
   var origen = document.getElementById('target1');
   var destino = document.getElementById('target10');
