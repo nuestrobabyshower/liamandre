@@ -1920,3 +1920,110 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
+  .portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  width:60%;
+background-position-x: center;
+display: block;
+  margin: 0 auto;
+  
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+  .portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  width:60%;
+background-position-x: center;
+display: block;
+  margin: 0 auto;
+  
+}
+}
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {/*iPAD PRO*/
+    .portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  width:50%;
+background-position-x: center;
+display: block;
+  margin: 0 auto;
+  
+}
+}
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {/*SURFACE PRO7*/
+      .portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  width:60%;
+background-position-x: center;
+display: block;
+  margin: 0 auto;
+  
+}
+}
+@media all and (device-width: 853px) and (device-height: 1280px) and (orientation:portrait) {/*ASUS ZENBOOK*/
+    .portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  width:60%;
+background-position-x: center;
+display: block;
+  margin: 0 auto;
+  
+}
+}
+
+@media (min-width: 1200px) { /*laptop*/
+  .portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  width:40%;
+background-position-x: center;
+display: block;
+  margin: 0 auto;
+  
+}
+
+}
+
+@media only screen and (max-width: 344px) and (min-width: 320px)  {/*GALAXY Z FOLD*/
+ .playpause {
+  padding: 15px;
+  border-radius: 50%;
+  background: #b6651e;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  align-items: right;
+}
+
+.playpause .button {
+  width: 30px;
+  height: 30px;
+  background: #f8ba45;
+  transition: inherit;
+  clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
+}
+ }

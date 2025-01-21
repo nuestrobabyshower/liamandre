@@ -364,6 +364,14 @@ sr.reveal('.porqueformas', {
 		
 
 	});
+sr.reveal('.pies', {
+		duration: 2000, //tiempo
+		delay: 1000,
+		origin: 'bottom', //origen
+		distance: '150px', //distancia
+		
+
+	});
 sr.reveal('.flores', {
 		duration: 3000, //tiempo
 		delay: 1000,
