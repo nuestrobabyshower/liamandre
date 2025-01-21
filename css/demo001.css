@@ -1,0 +1,1912 @@
+ body{
+  color: black;
+background-color: white;
+  width: 100%;
+ margin: 0;
+  overflow-x: hidden;
+
+
+}
+p{
+  margin-bottom: 0px;
+  margin-left: : 0px;
+  font-size: 1.2rem;
+}
+
+img{
+  width: 100%;
+}
+a{
+   display: inline-block;
+ 
+  text-decoration: none;
+
+}
+
+h3{
+  color:#121D25;
+}
+
+ul{
+  text-align: center;
+  z-index: 99;
+
+  
+}
+div.row{
+   margin-right: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
+}
+
+.portada{
+width: 100%;
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+}
+.playpause {
+  padding: 25px;
+  border-radius: 50%;
+  background: #b6651e;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  align-items: right;
+}
+
+.playpause:hover {
+  background: #b6651e;
+}
+
+.playpause .button {
+  width: 35px;
+  height: 35px;
+  background: #f8ba45;
+  transition: inherit;
+  clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
+}
+
+.playpause.playing .button {
+   clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
+}
+.mibautizo{
+ font-family: "Montserrat",Sans-serif;
+ letter-spacing: 2px;
+color:#000;
+  margin-top:-6px;
+  font-size: 16px;
+  background: linear-gradient(to right, #ABABAB, #DBDBDB);
+  opacity: 0.7;
+height:45px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+
+
+
+}
+.nombres1{
+font-family: 'Great Vibes', cursive;
+  margin-top:40px;
+  color:#868787;
+  font-size: 75px;
+  font-weight: 570;
+  text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+
+}
+
+.nombre{
+ 
+font-family: "Righteous", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+font-size: 60px;
+color:#868787;
+  
+    letter-spacing: 3px;
+}
+.mesP{
+font-family: "Righteous", serif;
+font-size: 35px;
+color:#b6651e;
+    
+    letter-spacing: 5px;
+}
+.diaP{
+font-family: "Montserrat",Sans-serif;
+font-size: 45px;
+color:#f8ba45;
+    
+}
+.añoP{
+font-family: "Montserrat",Sans-serif;
+font-size: 45px;
+color:#f8ba45;
+    
+    letter-spacing: 3px;
+}
+.and1{
+font-family: 'Arizonia', cursive;
+margin-top: -40px;
+  color:white;
+  font-size: 70px;
+-webkit-text-stroke: 0.5px black;
+}
+.nombres2{
+font-family: 'Tangerine', cursive;
+
+margin-top: -40px;
+  margin-bottom: 30px;
+  color:#9B7A07;
+  font-size: 100px;
+;
+
+}
+.nuestraBoda{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:white;
+  font-size: 13px;
+background: linear-gradient(to right, #B4DEEE, #E6C8E0);
+  opacity: 0.5;
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+
+}
+.diaBautizo{
+  font-size: 18px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:#8F9677;
+  font-size: 22px;
+
+
+
+}
+
+.faltan{
+ font-family: 'Cormorant Garamond', serif;
+  margin-top:120px;
+  color:#621132;
+  font-size: 25px;
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.simply-section {
+ background: transparent;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border: 2px solid #b6651e;
+  padding: 12px;
+  background: white;
+  width: 100%;
+  height: 80px;
+  margin: 0 50px;
+  margin:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+
+  display: block;
+  font-size: 40px;
+  color:#000;
+  font-weight: 700;
+   font-family: "Montserrat",Sans-serif;
+}
+
+.simply-word {
+  text-transform: uppercase;
+  color:#000;
+  font-weight: 100;
+  font-size: 15px;
+   font-family: "Montserrat",Sans-serif;
+   margin-bottom: 10px;
+}
+@media (min-width: 1200px) { /*laptop*/
+  .imagen1{
+    display: block;
+  margin: auto;
+  }
+  .imagen3{
+    display: block;
+  margin: auto;
+  }
+ 
+
+
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.nombres1{
+font-family: 'Great Vibes', cursive;
+ 
+  color:#868787;
+  font-size: 70px;
+  font-weight: 570;
+
+}
+
+.and1{
+font-family: 'Arizonia', cursive;
+margin-top: -40px;
+  color:white;
+  font-size: 70px;
+-webkit-text-stroke: 0.5px black;
+}
+.nombres2{
+font-family: 'Tangerine', cursive;
+
+margin-top: -40px;
+  margin-bottom: 30px;
+  color:#9B7A07;
+  font-size: 100px;
+;
+
+}
+.nuestraBoda{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:white;
+  font-size: 13px;
+background-color: #909779; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+
+}
+.diaBautizo{
+   font-size: 18px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:#8F9677;
+  font-size: 22px;
+
+
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+}
+
+@media (max-width:320px){
+.mibautizo{
+  font-family: "Montserrat",Sans-serif;
+ letter-spacing: 2px;
+color:#000;
+  margin-top:-6px;
+  font-size: 14px;
+  background: linear-gradient(to right, #ABABAB, #DBDBDB);
+  opacity: 0.7;
+height:45px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+
+
+}
+.nombres1{
+font-family: 'Great Vibes', cursive;
+  margin-top:60px;
+  color:#868787;
+  font-size: 50px;
+  font-weight: 570;
+
+}
+.diaP{
+font-family: "Montserrat",Sans-serif;
+font-size: 45px;
+color:#868787;
+    
+}
+.linea{
+    border-top: 5px solid #DBDBDB;
+}
+.linea2{
+    border-bottom: 5px solid #DBDBDB;
+}
+.mesP{
+ 
+font-family: "Montserrat",Sans-serif;
+font-size: 20px;
+color:#b6651e;
+letter-spacing: 3px;
+margin:0 auto;
+}
+.añoP{
+font-family: "Montserrat",Sans-serif;
+font-size: 25px;
+color:#868787;
+    
+    letter-spacing: 3px;
+}
+.and1{
+font-family: 'Arizonia', cursive;
+margin-top: -40px;
+  color:white;
+  font-size: 70px;
+-webkit-text-stroke: 0.5px black;
+}
+.nombres2{
+font-family: 'Tangerine', cursive;
+
+margin-top: -40px;
+  margin-bottom: 30px;
+  color:#9B7A07;
+  font-size: 75px;
+;
+
+}
+.nuestraBoda{
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:white;
+  font-size: 10px;
+background-color: #909779; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+
+
+
+}
+.diaBautizo{
+ font-size: 18px;
+ font-family: 'Arapey', serif;
+ letter-spacing: 4px;
+  margin-top:0px;
+  color:#8F9677;
+  font-size: 15px;
+
+
+
+}
+
+.botonPause{
+  margin-bottom: -10px;
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.simply-section {
+ background: transparent;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border: 1px solid rgba(0,0,0,0.4);
+  padding: 3px;
+  background: white;
+  width: 100%;
+  height: 80px;
+  margin: 0 50px;
+  margin:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+
+  display: block;
+  font-size: 40px;
+  color:#091921;
+  font-weight: 700;
+   font-family: "Montserrat",Sans-serif;
+}
+
+.simply-word {
+  text-transform: uppercase;
+  color:#F4C0D5;
+  font-weight: 700;
+  font-size: 15px;
+   font-family: "Montserrat",Sans-serif;
+   margin-bottom: 10px;
+}
+}
+
+
+
+.fondoMeGradue{
+width: 100%;
+height: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+
+}
+.nosCasamos{
+font-family: 'Dancing Script', cursive;
+  margin-top:;
+  color:white;
+  font-size: 30px;
+
+}
+.textoNosCasamos{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  margin-top:0px;
+  color:white;
+  font-size: 23px;
+  margin-bottom: 10px;
+
+}
+.estasinvitado{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color:white;
+  font-size: 35px;
+
+
+}
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:120px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 35px;
+
+}
+@media (max-width:376px){
+
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:30px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+}
+.dia{
+  margin-top: -100px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 170px;
+  margin-bottom: -10px;
+  color:#9B7A07;
+}
+.mes{
+  font-family: 'Arizonia', cursive;
+  font-size: 50px;
+  color:white;
+
+}
+.año{
+  margin-top: -40px;
+font-family: 'Arizonia', cursive;
+  font-size: 50px;
+  color:white;
+}
+.dondeycuandotitulo{
+  font-family: "Righteous", serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color:#868787;
+}
+.hora{
+    font-family: "Montserrat",Sans-serif;
+  font-size: 22px;
+  opacity:0.7;
+  color:#000;
+}
+.lugar{
+ font-family: 'Lora', serif;
+letter-spacing: 2px;
+ color:#000;
+  font-size: 15px;
+  background: linear-gradient(to right, #f8ba45, #f8ba45);
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+}
+.dondeycuando{
+  background-color: white;
+}
+.dondeyCuando{
+font-family: "Montserrat",Sans-serif;
+  margin-top:10px;
+  color:#000;
+  font-size: 15px;
+   box-shadow: 0 0 25px gray;
+  background: linear-gradient(to right, #67D2EB, #67D2EB);
+  opacity:0.70;
+height:30px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+ 
+ letter-spacing: 3px;
+
+}
+.dondeyCuandoMesa{
+font-family: 'Great Vibes', cursive;
+  margin-top:10px;
+  color:#9B7A07;
+  font-size: 40px;
+  background-color: #9D927A; 
+height:60px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.padres{
+   box-shadow: 0 0 20px #184547;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: white;
+
+  
+  background-color: #184547;
+  opacity: 1;
+  text-align: center;
+}
+.porqueformas{
+ font-family: 'Lora', serif;
+  font-size: 20px;
+  color:#000;
+}
+.tespero{
+  font-family: 'Lora', serif;
+  font-size: 22px;
+  line-height:2;
+  color:#868787;
+}
+.nompadres{
+  font-family: "Dancing Script",Sans-serif;
+  font-size: 30px;
+    color:#b6651e;
+    font-weight: 570;
+}
+.and{
+  font-family: 'Anuphan', sans-serif;
+ font-size:50px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+    color:#67D2EB; opacity: 0.5;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.dondeyCuando{
+font-family: "Montserrat",Sans-serif;
+  margin-top:10px;
+  color:#091921;
+  font-size: 14px;
+   box-shadow: 0 0 25px gray;
+  background: linear-gradient(to right, #67D2EB, #67D2EB);
+  opacity:0.70;
+height:30px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+ 
+ letter-spacing: 3px;
+}
+.dia{
+  margin-top: -100px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 170px;
+  margin-bottom: -10px;
+  color:#9B7A07;
+}
+}
+@media (max-width:320px){
+
+.dondeyCuando{
+font-family: "Montserrat",Sans-serif;
+  margin-top:10px;
+  color:#091921;
+  font-size: 12px;
+   box-shadow: 0 0 25px gray;
+  background: linear-gradient(to right, #67D2EB, #67D2EB);
+  opacity:0.70;
+height:30px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+ 
+ letter-spacing: 3px;
+}
+.dia{
+  margin-top: -100px;
+ font-family: 'Cormorant Garamond', serif;
+  font-size: 170px;
+  margin-bottom: -10px;
+  color:#9B7A07;
+}
+.porqueformas{
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color:#868787;
+}
+.tespero{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height:2;
+  color:#868787;
+}
+.nompadres{
+  font-family: "Dancing Script",Sans-serif;
+  font-size: 25px;
+    color:#868787;
+    font-weight: 570;
+}
+.and{
+  font-family: 'Anuphan', sans-serif;
+ font-size:40px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+    color:#67D2EB; opacity: 0.5;
+}
+
+}
+
+.familiaboleto{
+font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color:#868787;
+  letter-spacing: 3px;
+
+}
+.apellidos{
+font-family: 'Dancing Script', cursive;
+  font-size: 38px;
+  color:#000;
+ 
+}
+
+
+.invitacionpara{
+font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+}
+.numeroPerMes{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+    color:#868787;
+}
+
+
+
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.apellidos{
+font-family: 'Dancing Script', cursive;
+  font-size: 38px;
+  color:#909779;
+}
+.invitacionpara{
+font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.numMesa{
+  font-size: 27px;
+font-family: 'Open Sans', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+    color:#868787;
+}
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+@media (max-width:320px){
+
+.invitacionpara{
+font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+    color:#868787;
+background-color: #F7F7F7 ; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.numMesa{
+  font-size: 27px;
+font-family: 'Open Sans', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+    color:#868787;
+}
+.respetuosamente{
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+.lugar{
+font-family: 'Lora', serif;
+letter-spacing: 2px;
+ color:#000;
+  font-size: 12px;
+  background-color:#DBDBDB;
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+}
+.dondeycuandotitulo{
+  font-family: "Montserrat",Sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color:#868787;
+}
+.hora{
+    font-family: "Montserrat",Sans-serif;
+  font-size: 18px;
+  opacity:0.7;
+  color:#000;
+}
+}
+
+.formulario{
+  margin-left: -10px;
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.ceremoniaReligiosa{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  box-shadow: 0 0 10px #868787;
+
+
+  background-color:white;
+  text-align: center;
+
+}
+.ceremoniaReligiosa2{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  box-shadow: 0 0 10px #868787;
+
+
+  background-color:white;
+  text-align: center;
+
+}
+
+
+.portadaBautizo{
+
+  
+  
+  box-shadow: 0 0 25px gray;
+  background-image: url(../img/portada.jpeg);
+  background-size: 100% 100%;  
+}
+.portadaBaby{
+
+  
+  
+  height: 700px;
+}
+.portadaBautizo2{
+
+  
+  
+  
+  background-color:white;
+  text-align: center;
+  margin-bottom: 140px;
+  z-index: -99;
+
+}
+.vestimenta{
+
+  border-top: 3px solid black;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  border-color: #fff;
+
+  color:white;
+  background-color: #fff;
+  text-align: center;
+}
+
+.boletos{
+  background-color: white;
+  box-shadow: 0 0 20px gray;
+  border-top: 3px solid black;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  
+ 
+  border-color: #fff;
+
+  color:black;
+  
+  text-align: center;
+}
+
+.carousel{
+  border-top: 5px solid black;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  
+  border-color: #909779;
+
+  color:black;
+  
+ 
+}
+#carousel .carousel-caption  h2 {
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+.imagen{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+.textodondeycuando{
+  font-size: 15px;
+ font-family: 'Lora', serif;
+ color:#868787;
+
+}
+.carousel2 {
+  background: white;
+  border-radius: 10px; 
+box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+
+  }
+  .carousel2 .carousel-item {
+    height: 300px;
+    border-radius: 5px;  
+
+  }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px; 
+      top: 0;
+      left: 0;
+      border-color: black;
+
+       }
+@media (min-width: 1000px) {
+    .carousel2 .carousel-item {
+    height: 500px; }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+       }
+}
+
+.padrinos{
+  border-radius: 50%;
+}
+
+.textoSeccionPadrinos{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:10px;
+  color:gray;
+  font-size: 20px;
+  margin-bottom: 50px;
+
+}
+
+.mesaRegalos{
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 400;
+  margin-top:10px;
+  color:gray;
+  font-size: 12px;
+  margin-bottom: 50px;
+
+}
+.tiendas{
+  border-radius: 20px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  border-color: gray;
+  background-color: white;
+}
+
+.datosBancarios{
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 400;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+
+.Tituloasistencia{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color:#AA006F;
+
+}
+
+.textoasistencia{
+  font-family: 'Maitree', serif;
+  font-weight: 400;
+  color:black;
+  font-size: 17px;
+  margin-bottom: 50px;
+
+}
+.Tituloasistenciaespero{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  margin-bottom: 80px;
+  color:#AA006F;
+
+}
+.mesaregalos{
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #fff;
+  color:black;
+  background-color: #fff;
+box-shadow: 0 0 10px gray;
+}
+.titulo{
+  
+  color: #7E4C0D ;
+  
+
+
+}
+.btnwhats .textowhats{
+  size:10px;
+}
+.btnWhats{
+  text-decoration:none;
+  color:white;
+  border-color: #25D366;
+  background-color: transparent;
+  height: 40px;
+  
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 99;
+}
+
+.btn{
+  text-decoration:none;
+  background: linear-gradient(#67D2EB, #FA72AD);
+  opacity:0.7;
+  color:black;
+
+}
+
+
+.btn:hover{
+  text-decoration:none;
+  color: black;
+  border-color: #909779;
+  background-color:white; 
+
+}
+.btnComoLlegar{
+  letter-spacing: 3px;
+  text-decoration: none;
+  color:#000;
+  background: linear-gradient(#67D2EB, #67D2EB);
+  opacity:0.7;
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background-color: #D6C5B2; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#fff;
+  height: 45px;
+}
+.btnComoLlegar2{
+  letter-spacing: 3px;
+  text-decoration: none;
+  color:#000;
+  background: linear-gradient(#67D2EB, #67D2EB);
+  opacity:0.7;
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnComoLlegar2:hover{
+  text-decoration: none;
+  background-color: #D6C5B2; 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#fff;
+  height: 45px;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 15px;
+}
+}
+@media (max-width:320px){
+
+.btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 12px;
+}
+}
+
+.btnWhats{
+  text-decoration:none;
+  color:#25D366;
+  background-color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #25D366;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnWhats:hover{
+  text-decoration:none;
+  background-color: #25D366;
+  color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: white;
+ 
+}
+
+.btnWhatsNovios{
+  text-decoration:none;
+  color:#000;
+  background: linear-gradient(#67D2EB, #67D2EB);
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: transparent;
+  height: 45px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+}
+
+
+.btnWhatsNovios:hover{
+  text-decoration:none;
+  background-color: transparent;
+  color: #fff;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #fff;
+ 
+}
+
+.btnHoteles{
+  text-decoration:none;
+  height: 50px;
+  font-size: 12px;
+border-color: white; 
+border-width:2px; 
+border-radius: 1px; 
+background-color:transparent; 
+color:white; 
+}
+
+
+.btnHoteles:hover{
+  text-decoration:none;
+  color: #9B7A07;
+  border-color: #9B7A07;
+ 
+}
+
+.menu{
+  color: #121D25;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 0px;
+}
+.table {
+  background: black;
+  position: sticky;
+  color:black;
+  margin-bottom: 9px;
+  top:0; 
+}
+
+.badge{
+  background-color: black;
+}
+.cuerpo{
+width: 100%;
+  background: transparent; 
+  color:#121D25;
+z-index: -1;
+margin-top: 0px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 17px;
+
+
+}
+
+.desactivado{
+    margin-top: 320px;
+  font-size: 35px;
+
+
+
+}
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 13px;
+
+
+
+}
+.cuentaRegresiva{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+ 
+  background-color:transparent;
+  text-align: center;
+ margin-top: 0;
+}
+@media (min-width: 1200px) { /*laptop*/
+  .cuentaRegresiva{
+    margin-top: 0;
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  
+  background-color:transparent;
+  text-align: center;
+
+}
+  }
+@media (max-width:320px){
+  .cuentaRegresiva{
+    margin-top: 0;
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  
+  background-color:transparent;
+  text-align: center;
+
+}
+
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 10px;
+
+}
+.badge{
+  font-size: 9px;
+ 
+}
+}
+
+.precio{
+
+  margin-left: -20px;
+}
+
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #FFE8F7;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+  .loader_bg img{
+    display:inline-block;
+    vertical-align:middle;
+    margin-top: -40px;
+    margin-left: 8px;
+    animation-name:pulse_animation;animation-duration:2500ms;
+    transform-origin:50% 50%;animation-timing-function:ease-in-out}
+    @media (min-width: 375px){
+.loader_bg img{max-width:180px !important;max-height:180px !important}}
+@keyframes pulse_animation{0%{transform:scale(1)}100%{transform:scale(1.7)}}
+   
+ 
+.progress{position:relative;height:4px;display:block;width:100%;background-color:#F4F4F4;border-radius:2px;background-clip:padding-box;margin:0 auto;overflow:hidden}
+.progress .loading-bar{background-color:#797d80}
+.progress .indeterminate:before{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite}
+.progress .indeterminate:after{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;-webkit-animation-delay:1.15s;animation-delay:1.15s}@-webkit-keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}
+@keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@-webkit-keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}@keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}
+
+
+#scroll {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#b6651e;
+    border-color: #9B7A07;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+    z-index:99999999px;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#f8ba45;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+.imagen2{
+  
+  background-color:#9B7A07 ;
+ border-top: 7px solid #9B7A07;
+  border-bottom: 7px solid #9B7A07;
+  border-right: 7px solid #9B7A07;
+  border-left: 7px solid #9B7A07;
+  border-color: #9B7A07;
+  width: 100%;
+}
+.collage{
+  margin-top: -40px;
+  margin-bottom: -100px;
+  border-color: black;
+  color:black;
+  background-color: transparent;
+  text-align: center;
+  z-index: 99;
+}
+
+.pie{
+  background: #621132;
+  border-top: solid 1px white;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color:white;
+  height: 100px;
+  position:relative;
+  z-index: -1;
+  text-decoration:none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.piepag {
+  font-size: 2rem;
+  text-align: center;
+  z-index: -1;
+  color:#121D25;
+  font-family: 'Oleo Script Swash Caps', sans-serif;
+
+}
+.center{display:table;width:100%;background-color: black;
+margin-top:-25px;
+margin-bottom:;}
+#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
+#social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
+#social-test .social{padding-left:0}
+#social-test a{color:#909090;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid rgba(167,146,129,.4);cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
+#social-test a:hover{color:#fff;border:1px solid #ccc}
+.social:hover>a{opacity:.5}
+.social:hover>a:hover{opacity:1}
+
+.form-register {
+  width: 100%;
+  background: #fff ;
+  padding: 30px;
+  margin: auto;
+  margin-top:;
+  border-radius: 4px;
+  font-family: 'calibri', serif;
+  color: #868787;
+  box-shadow: 0 0 10px gray;
+  border-top: 1px solid #9B7A07;
+  border-bottom: 1px solid #9B7A07;
+  border-right: 1px solid #67D2EB;
+  border-left: 1px solid #67D2EB;
+  border-color: #8F9677;
+}
+
+.controls {
+  width: 100%;
+  background: #E5E5E5 ;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border-top: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 3px solid #67D2EB;
+  border-left: 3px solid #67D2EB;
+  
+font-family: 'calibri', serif;
+  font-size: 18px;
+  color: black;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: #67D2EB;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  align-self: center;
+  background: gray;
+  border: none;
+  padding: 12px;
+  color: #9B7A07;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/* The container must be positioned relative: */
+.custom-select2 {
+  background-color: #E5E5E5;
+  color: #9B7A07;
+  position: relative;
+  font-family: 'calibri', serif;
+  font-size: 20px;
+  border-top: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 3px solid #67D2EB;
+  border-left: 3px solid #67D2EB;
+}
+
+.custom-select2 select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #909779 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #909779 transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: black;
+  margin-left: 10px;
+  padding: ;
+  border: 1px solid #909779;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #E5E5E5;
+  top: 100%;
+  height: 70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+  #particles-js{
+            background: transparent;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -1;
+        }
+
+/* INTRO SECTION
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 1;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #9B7A07;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #9B7A07 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #9B7A07;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #9B7A07;
+}
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #9B7A07 transparent transparent;
+  }
+}
+audio{
+  background: linear-gradient(to right, #67D2EB, #67D2EB);
+  
+}
+audio::-webkit-media-controls-panel {
+
+  background: linear-gradient(to right, #67D2EB, #67D2EB);
+  
+ 
+  
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: #fff;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+  background-color: #fff;
+  border-radius: 50%;
+  color:white;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #fff;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #000;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #000;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: #fff;
+  color:white;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+audio::-webkit-media-controls-seek-back-button{
+  background-color: #fff;
+  border-radius: 50%;
+  color:white;
+}
+
+.flecha {
+  position: relative;
+  -webkit-animation-name: rebote; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+.flecha span{
+  background-color: #2F2B2B;
+  display: block;
+  margin-top: -4px;
+  height: 15px;
+  width: 200px;
+}
+/* Standard syntax */
+@keyframes rebote {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:-7px; top:0px;}
+  75%  {left:-5px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.linea{
+
+    margin:0px 10px;
+  width:50px;    
+  border-top:1.5px solid #fff;
+  position: relative;
+  top:20px;
+  float:left;
+  opacity: 1;
+}
+.linea2{
+
+    margin:0px 10px;
+  width:40px;    
+  border-top:2px solid #262a31;
+  position: relative;
+  top:20px;
+  float:left;
+
+
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
