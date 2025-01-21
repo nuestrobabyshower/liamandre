@@ -53,7 +53,7 @@ sr.reveal('.añoP', {
 	}); 
 sr.reveal('.mesP', {
 		duration: 2000, //tiempo
-		delay:2000,
+		delay:1300,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
